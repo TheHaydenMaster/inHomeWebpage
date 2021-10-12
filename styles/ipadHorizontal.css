@@ -1,0 +1,39 @@
+body{
+    background-color: purple;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+main{
+    width: 900px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    background-color: lightgrey;
+}
+main > section > div{
+    display: inline;
+}
+main > section > div > img{
+    width: 0px;
+}
+iframe{
+    width: 800px;
+    height: 600px;
+}   
+.calendar{
+    text-align: center;
+    margin: auto;
+    width: 300px;
+    padding: 10px;
+    border-radius: 4px;
+}
+

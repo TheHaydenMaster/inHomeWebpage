@@ -1,0 +1,48 @@
+html, body{
+    overflow-x: hidden;
+}
+body{
+    background-color: grey;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    text-align: center;
+}
+main{
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgrey;
+    padding: 100px 40px 100px 40px;
+    border-radius: 5px;
+    display: table;
+}
+main > section{
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+main > section > div {
+    padding: 15px;
+    background-color: white;
+    
+}
+.calendar{
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    padding: 25px;
+    border-radius: 4px;
+}
+iframe{
+    width: 800px;
+    height: 600px;
+}   
